@@ -1,0 +1,177 @@
+﻿Diagnose log at 2024-12-16T21:42:56Z
+
+AppPath: /usr/local/bin/git-credential-manager
+InstallDir: /usr/local/share/gcm-core/
+Version: 2.5.1+90d5f897f164a8fe07d2aa3bf7db439b0b4e03ea
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: macOS
+OSVersion: 15.0.1
+Reading environment variables... OK
+ Variables:
+_CE_CONDA=
+_P9K_TTY=/dev/ttys005
+TERM=xterm-256color
+LANG=it_IT.UTF-8
+COMMAND_MODE=unix2003
+CONDA_PROMPT_MODIFIER=(base) 
+XPC_SERVICE_NAME=0
+_=/usr/local/bin/git-credential-manager
+COLORTERM=truecolor
+XPC_FLAGS=0x0
+HOMEBREW_PREFIX=/opt/homebrew
+PAGER=less
+HOME=/Users/raciard
+GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
+TERM_PROGRAM=vscode
+CONDA_PREFIX=/opt/homebrew/anaconda3
+USER_ZDOTDIR=/Users/raciard
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+USER=raciard
+_CE_M=
+GIT_ASKPASS=/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh
+SHLVL=1
+CONDA_DEFAULT_ENV=base
+OLDPWD=/Users/raciard/Desktop/Progetti
+VSCODE_NONCE=af240228-31f2-44f9-b35b-6d747888f6d0
+ZDOTDIR=/Users/raciard
+ZSH=/Users/raciard/.oh-my-zsh
+ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+P9K_SSH=0
+LESS=-R
+VSCODE_GIT_ASKPASS_NODE=/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)
+LSCOLORS=Gxfxcxdxbxegedabagacad
+HOMEBREW_REPOSITORY=/opt/homebrew
+CONDA_PYTHON_EXE=/opt/homebrew/anaconda3/bin/python
+LOGNAME=raciard
+INFOPATH=/opt/homebrew/share/info:/opt/homebrew/share/info:
+SHELL=/bin/zsh
+VISUAL=nvim
+TMPDIR=/var/folders/tp/yvt6ykzd6x108j9lxzdnk2qm0000gn/T/
+VSCODE_INJECTION=1
+GSETTINGS_SCHEMA_DIR=/opt/homebrew/anaconda3/share/glib-2.0/schemas
+GIT_TRACE2_PARENT_SID=c1504c95-1e69-4e1b-923e-285a8c5963ae
+CONDA_EXE=/opt/homebrew/anaconda3/bin/conda
+MallocNanoZone=0
+CONDA_SHLVL=1
+PATH=/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Applications/Little Snitch.app/Contents/Components:/opt/homebrew/anaconda3/bin:/opt/homebrew/anaconda3/condabin:/Users/raciard/.cargo/bin
+P9K_TTY=old
+__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x4
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.ZFKEPdrVXH/Listeners
+LS_COLORS=di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43
+EDITOR=nvim
+PWD=/Users/raciard/Desktop/Progetti
+TERM_PROGRAM_VERSION=1.95.3
+HOMEBREW_CELLAR=/opt/homebrew/Cellar
+__CFBundleIdentifier=com.microsoft.VSCode
+VSCODE_GIT_ASKPASS_MAIN=/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js
+VSCODE_GIT_IPC_HANDLE=/var/folders/tp/yvt6ykzd6x108j9lxzdnk2qm0000gn/T/vscode-git-830f509d3e.sock
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is '/var/folders/tp/yvt6ykzd6x108j9lxzdnk2qm0000gn/T/'...
+Checking basic file I/O...
+Writing to temporary file '/var/folders/tp/yvt6ykzd6x108j9lxzdnk2qm0000gn/T/57964adc962731ea34eadd07'... OK
+Reading from temporary file '/var/folders/tp/yvt6ykzd6x108j9lxzdnk2qm0000gn/T/57964adc962731ea34eadd07'... OK
+Deleting temporary file '/var/folders/tp/yvt6ykzd6x108j9lxzdnk2qm0000gn/T/57964adc962731ea34eadd07'... OK
+Testing IFileSystem instance...
+UserHomePath: /Users/raciard
+UserDataDirectoryPath: /Users/raciard/.gcm
+GetCurrentDirectory(): /Users/raciard/Desktop/Progetti
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:58639/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.45.2'
+Locating current repository...Git repository at '/Users/raciard/Desktop/Progetti/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:/opt/homebrew/etc/gitconfig	credential.helper=osxkeychain
+file:/Users/raciard/.gitconfig	user.name=raciard
+file:/Users/raciard/.gitconfig	user.email=riccardo.bracciale@gmail.com
+file:/Users/raciard/.gitconfig	credential.helper=
+file:/Users/raciard/.gitconfig	credential.helper=
+file:/Users/raciard/.gitconfig	credential.helper=/usr/local/share/gcm-core/git-credential-manager
+file:/Users/raciard/.gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:/Users/raciard/.gitconfig	credential.https://git-oop.polito.it.provider=generic
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=true
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.ignorecase=true
+file:.git/config	core.precomposeunicode=true
+file:.git/config	remote.origin.url=git@github.com:raciard/homeworkpca.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: /Users/raciard/.local/.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: /Users/raciard/.local/.IdentityService/msal.cache
+MacKeyChainAccountName: MSALCache
+MacKeyChainServiceName: Microsoft.Developer.IdentityService
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
